@@ -6,7 +6,9 @@ project(Ordo
 )
 
 add_library(OrdoCore STATIC
+    src/CharacterState.cpp
     src/Core.cpp
+    src/Disposition.cpp
 )
 
 add_library(Ordo::Core ALIAS OrdoCore)
@@ -40,4 +42,10 @@ if(BUILD_TESTING)
         NAME Core.Smoke
         COMMAND OrdoCoreSmokeTests
     )
+
+    add_executable(OrdoCharacterStateTests
+        tests/CharacterStateTests.cpp
+    )
+    target_link_libraries(OrdoCharacterStateTests PRIVATE Ordo::Core)
+    add_test(NAME Core.CharacterState COMMAND OrdoCharacterStateTests)
 endif()
