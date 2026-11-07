@@ -105,7 +105,7 @@ The prototype uses three narrow tendencies:
 | Disposition | Meaning in this scenario |
 |---|---|
 | Truthfulness | A settled tendency to communicate what one believes to be true and avoid deliberate falsehood. |
-| Steadfastness under social pressure | A tendency to persist in a recognized good despite anticipated rejection. |
+| Constancy | A tendency to persist in a recognized good despite anticipated rejection. |
 | Approval seeking | A tendency to give social acceptance excessive priority when choosing. |
 
 These tendencies approximate selected aspects of character. They do not
@@ -142,7 +142,7 @@ will be defined during implementation.
 | Disposition | Profile A | Profile B |
 |---|---|---|
 | Truthfulness | Strong | Weak |
-| Steadfastness under social pressure | Strong | Weak |
+| Constancy | Strong | Weak |
 | Approval seeking | Weak | Strong |
 
 ### Profile A: Practiced truthful witness
@@ -153,7 +153,7 @@ good under social pressure.
 Expected evaluation:
 - Anticipated rejection can still produce fear.
 - Truthfulness supports reporting the alibi and resisting false testimony.
-- Steadfastness helps sustain the motivation to defend the companion despite fear.
+- Constancy helps sustain the motivation to defend the companion despite fear.
 - Social approval has relatively little influence on the available actions.
 
 The host can still choose silence or false testimony.
@@ -175,7 +175,7 @@ The host can still choose to defend the companion.
 ## Comparison criteria
 
 - Different dispositions produce different motivational influences.
-- Strong steadfastness need not mean an absence of fear.
+- Constancy need not mean an absence of fear.
 - Truthfulness does not automatically imply concern for the companion.
 - Concern for the companion is held equal between these profiles to isolate
   the effects of the three modeled dispositions.
